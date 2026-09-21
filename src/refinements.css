@@ -3,3 +3,4 @@ h2{font:700 17px Archivo,sans-serif;letter-spacing:.03em;text-transform:none;gap
 .no-print>a{font:12px 'IBM Plex Mono',monospace;background:var(--paper);border:1px solid var(--hairline);color:var(--ink2);padding:.4rem .55rem}.no-print>a:hover{border-color:var(--seal)}
  :root{--seal:#1d4ed8}header{padding-bottom:0;border-bottom:0}.contact{padding:.75rem 0}
 .latin{color:var(--ink3);font-size:11px;letter-spacing:.3em}.summary{font-size:13.5px;line-height:1.75rem}.title{font-size:15px}
+@media(max-width:600px){.skill{grid-template-columns:1fr;gap:.25rem}.skill h3{margin-bottom:0}.contact div{min-width:0}.contact a{overflow-wrap:anywhere}.subentry h3,.cards h3{flex-wrap:wrap}.tech{overflow-wrap:anywhere}}

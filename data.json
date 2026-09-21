@@ -1,514 +1,460 @@
 {
   "zh": {
+    "pageTitle": "李继旺 · 全栈工程师 / AI 应用工程师",
     "navLanguage": "EN",
     "print": "打印 / 导出 PDF",
-    "name": "李开智",
-    "nameLatin": "LI KAIZHI",
-    "title": "高级前端 / AI 全栈 & Web3 工程师",
-    "summary": "七年+前端开发经验，专注于 AI、Web3 与跨平台应用开发，具备从 0→1 构建大型 Web、Mobile、DApp 与多租户 AI SaaS 产品的完整经验。深耕 React / Next.js 技术生态，具备 EVM + Solana 多链 DApp 开发能力，熟悉 DeFi、NFT、Staking、Swap、Wallet 等核心 Web3 场景；同时拥有 AI 多 Agent 系统、流式对话系统与 React Native 跨平台移动端上线经验。具备 Node.js / Next.js 服务端、Cloudflare Workers 与 Python FastAPI 的后端开发能力，熟悉 LangGraph / Claude Agent SDK 服务端 Agent 编排、Prisma / SQLAlchemy + PostgreSQL 数据层与 gRPC / SSE 接口设计，能够独立完成前后端一体化的 AI 全栈交付。擅长现代前端工程化体系建设，具备 Monorepo 架构、Design Token 主题体系、性能优化、组件体系建设与 CI/CD 自动化实践经验，能够独立负责大型项目的技术选型、架构设计与上线交付。",
+    "name": "李继旺",
+    "nameLatin": "LI JIWANG",
+    "title": "全栈工程师 / AI 应用工程师",
+    "summary": "6 年全栈研发经验，具备从需求分析、架构设计、前后端开发到部署运维的完整交付能力。熟悉 Vue、React、Next.js、TypeScript、Node.js / NestJS 与 Python，能够独立构建企业管理系统、内容平台、数据可视化产品及 AI SaaS。深入实践 GPT、Claude、DeepSeek 等模型接入、Tool Calling、多轮 Agent、Skill / Workflow、SSE 流式输出与上下文管理，并长期使用 Claude Code、OpenAI Codex 等 AI Coding 工具提升研发效率。",
     "contact": [
       [
         "Email",
-        "kaishuige199612@gmail.com",
-        "mailto:kaishuige199612@gmail.com"
+        "2537791055@qq.com",
+        "mailto:2537791055@qq.com"
       ],
       [
-        "7 年+ 经验",
+        "电话",
+        "15917529255",
+        "tel:15917529255"
+      ],
+      [
+        "6 年经验",
         "",
         ""
       ],
       [
-        "Tg",
-        "@srysryz",
-        "https://t.me/srysryz"
-      ],
-      [
-        "WeChat",
-        "liangzaikaishui",
+        "求职意向",
+        "全栈工程师",
         ""
       ],
       [
-        "GitHub",
-        "kaishuige",
-        "https://github.com/kaishuige"
+        "期望城市",
+        "佛山",
+        ""
+      ],
+      [
+        "期望薪资",
+        "15-17K",
+        ""
       ]
     ],
     "sections": {
-      "summary": "个人简历",
+      "summary": "个人优势",
       "skills": "专业技能",
       "experience": "工作经历",
       "projects": "项目经历",
-      "side": "个人项目",
-      "open": "参与开源",
-      "strengths": "个人总结",
+      "side": "AI Coding 实践",
+      "open": "",
+      "strengths": "核心优势",
       "education": "教育经历"
     },
+    "sectionLabels": {
+      "summary": "PROFILE",
+      "skills": "SKILLS",
+      "experience": "EXPERIENCE",
+      "projects": "PROJECTS",
+      "side": "AI CODING",
+      "open": "",
+      "strengths": "STRENGTHS",
+      "education": "EDUCATION"
+    },
+    "techLabel": "技术栈",
     "skills": [
       [
         "前端",
-        "React 19 / Next.js 15 / TypeScript（strict）；React Native + Expo；Electron；Vue3 / Nuxt.js\nZustand / TanStack Query / TanStack Router / Pinia；Tailwind CSS v4 / NativeWind / UnoCSS\n组件库：shadcn/ui、Radix UI、HeroUI、TDesign、Element Plus"
+        "Vue 3 / React / Next.js 15 / TypeScript；Vite、Tailwind CSS、Ant Design、Element UI、Naive UI；Zustand、Pinia、Vuex、TanStack Query；SSR / SSG、国际化、响应式与组件化开发"
       ],
       [
-        "后端 / BFF",
-        "Node.js；Next.js Route Handlers & Server Actions；Hono / Cloudflare Workers 边缘服务\nPython：FastAPI / SQLAlchemy / Alembic / pytest；多租户数据隔离与动态权限模型\n数据层：Prisma / Drizzle ORM；PostgreSQL / Cloudflare D1；RESTful / SSE 流式接口设计\n接口通信：ConnectRPC / gRPC-Web / Protocol Buffers（Buf 代码生成）\n服务端 AI 编排：LangGraph / LangChain 多 Agent 编排与流式服务"
+        "后端与数据",
+        "Node.js / NestJS / Next.js Route Handlers；Python；RESTful API、SSE 流式接口、Webhook、异步任务；PostgreSQL、MySQL、Redis；Drizzle ORM、SQL 数据建模"
       ],
       [
-        "Web3",
-        "Solana：@solana/web3.js、Anchor、SPL Token、Raydium SDK v2、Metaplex UMI\nEVM：ethers.js、wagmi、viem、WalletConnect、RainbowKit；Solidity 基础\n核心场景：DeFi、NFT Mint/Staking、Swap (CLMM)、Wallet、多链资产管理"
+        "AI 应用工程",
+        "GPT、Claude、DeepSeek 模型接入；Tool Calling、多轮 Agent、Skill / Workflow、上下文管理；Vercel AI SDK、多模型适配、流式输出、任务重试与降级；NewAPI、Sub2API 模型服务管理"
       ],
       [
-        "AI 与工程化",
-        "AI 技术栈：LangGraph SDK、LangChain、Claude Agent SDK、E2B 沙箱、SSE 流式、多 Agent 架构\n构建：Vite Plus（oxc + Rolldown）/ pnpm Monorepo（catalog）\n部署：Docker / GitHub Actions / EAS Build / Cloudflare Workers + OpenNext / Wrangler\n质量：Oxlint / ESLint / Ruff / Husky / Vitest / Playwright E2E；Rust 基础"
+        "工程化与部署",
+        "pnpm Monorepo、Turborepo、Docker、Nginx、Linux、GitHub Actions；Playwright、ESLint、Prettier；性能优化、权限模型、CI/CD 与线上故障排查；Claude Code、OpenAI Codex、GitHub Copilot"
+      ],
+      [
+        "可视化与平台",
+        "ECharts、DataV、Meta2d、xgplayer、video.js；企业后台、视频平台、CMS、多端适配（Web / Mobile / PWA）与地图 / 视频 SDK 集成"
       ]
     ],
     "experience": [
       {
-        "company": "共识边缘（深圳）科技有限公司",
-        "period": "2025.06 — 至今",
-        "role": "高级前端工程师",
-        "items": [
-          {
-            "name": "SalesAI",
-            "tag": "多租户 AI SaaS 平台 · 全栈",
-            "desc": "负责多产品、多租户 AI SaaS 平台的前端架构与全栈开发。平台统一管理租户、成员、角色权限与产品授权，产品线覆盖私域 AI 客服与千川投流 AI。\n基于 Next.js 15 + React 19 + Tailwind CSS v4 搭建 pnpm Monorepo：租户控制台、平台运营后台、官网三端应用与共享包。\n主导私域 AI 工作台：基于 E2B 沙箱 + Claude Agent SDK 的 Builder 对话式配置向导、实时人工接管聊天、活动统计与配额计量。\n建设 GitHub Actions CI（typecheck / eslint / vitest / ruff / pytest）与部署流水线。",
-            "tech": "Next.js 15 / React 19 / Tailwind CSS v4 / TanStack Query / Zustand / FastAPI / PostgreSQL / Claude Agent SDK / E2B",
-            "bullets": [
-              "基于 Next.js 15 + React 19 + Tailwind CSS v4 搭建 pnpm Monorepo：租户控制台、平台运营后台、官网三端应用与 auth / client / i18n / shell / ui 共享包，统一 Design Token 与主题体系",
-              "设计 Server Component 优先的渲染边界与 TanStack Query 数据层，实现租户路由守卫与动态 capability 权限驱动的前端能力控制",
-              "主导私域 AI 工作台：基于 E2B 沙箱 + Claude Agent SDK 的 Builder 对话式配置向导、实时人工接管聊天（含图片 / 文件附件）、活动统计与配额计量",
-              "开发千川投流 AI 工作台：广告账户 OAuth 接入、监控生命周期、规则配置、排行与运维面板",
-              "参与 FastAPI + SQLAlchemy + Alembic 后端开发：达人导入批次、Apollo 加好友调度、配额计量、活动统计等模块及 pytest 覆盖",
-              "独立实现 @salesai/i18n 国际化方案（locale 解析、字典加载、Provider 与语言切换）与 typed API client",
-              "建设 GitHub Actions CI（typecheck / eslint / vitest / ruff / pytest）与 web / admin / site 三条部署流水线"
-            ]
-          },
-          {
-            "name": "Paratrix / KARPAK",
-            "link": "https://discover.karpak.xyz/",
-            "tag": "Solana RWA 协议",
-            "desc": "负责基于 Solana 的 RWA 停车场收益权协议前端架构设计与开发，实现收益链上代币化。集成 Phantom / Solflare 钱包、FT 与 NFT Staking、Raydium Swap、DexScreener 行情图表。",
-            "tech": "Next.js / React / TypeScript / Solana / Anchor / Raydium SDK",
-            "bullets": [
-              "基于 Next.js 15 + React 19 + TypeScript strict 构建高性能 Web3 应用",
-              "基于 OpenNext + Wrangler 部署至 Cloudflare Workers",
-              "集成 Phantom / Solflare 钱包，实现多网络切换与 WalletModal 自定义钱包系统",
-              "实现 FT Staking 与 NFT Staking 系统，支持 7 天冷却期、收益领取、APY Dashboard",
-              "基于 Anchor + Solana IDL 完成链上智能合约交互",
-              "基于 Raydium SDK 实现 SOL/KPK/dUSDC Swap，多跳路由与滑点控制",
-              "集成 DexScreener API + TradingView 实现实时行情图表",
-              "完成响应式布局与多主题系统，优化移动端交互体验"
-            ]
-          },
-          {
-            "name": "DoWhat Web",
-            "link": "https://staging-chat.dowhat.me/",
-            "tag": "AI 智能助手 Web",
-            "desc": "负责 AI 智能助手 Web 端架构设计与开发，实现多 Agent 实时流式 AI 对话系统，支持历史会话、无限滚动、流式中断与恢复及复杂富消息渲染。",
-            "tech": "Next.js / React / LangGraph / SSE / Zustand / React Query / Docker",
-            "bullets": [
-              "基于 LangGraph SDK + SSE 实现低延迟流式 AI 对话体验",
-              "实现 AI 历史会话、无限滚动、流式中断与恢复机制",
-              "支持多 Agent 与复杂富消息场景渲染",
-              "基于 protobuf 共享类型实现前后端类型安全",
-              "搭建 Playwright E2E 自动化测试体系",
-              "配置 Docker 多环境部署流程"
-            ]
-          }
+        "company": "广州晟衍科技有限公司",
+        "period": "2025.05 — 至今",
+        "role": "全栈工程师",
+        "desc": "负责企业管理后台、视频平台、内容管理系统及 AI 创作平台的全栈研发，参与技术选型、架构设计、数据层建设、性能优化与工程规范建设。",
+        "bullets": [
+          "基于 React / Vue / Next.js、Node.js、PostgreSQL 完成前后端及数据层建设，实践 SSR / SSG、Monorepo 与组件化开发",
+          "参与 Songin AI 音乐与 MV 创作平台，接入音乐、歌词、图片、视频生成能力，串联创意规划、分镜、生成与合成流程",
+          "基于 LLM Tool Calling、Skill 构建多轮 Agent 工作流，实现任务拆解、流程编排、状态持久化及多模型调用",
+          "封装 SSE、异步任务、Webhook、重试与降级能力，完善 AI 生成链路的可观测性与稳定性",
+          "使用 Claude Code、OpenAI Codex、GPT 完成需求分析、开发、调试与代码审查，实践子 Agent 协作和 Token 成本优化"
         ]
       },
       {
-        "company": "方宇宙科技有限公司（Web3）",
-        "period": "2024.06 — 2025.06",
-        "role": "Web3 前端开发",
-        "desc": "独立负责 L3E7 与 L3E7-UAW 项目 Web3 前端开发与 0→1 上线。实现 NFT Mint、Staking、多链充值、Claim、抽卡、签到、链上任务、游戏道具市场等功能；搭建 Storybook 组件文档、Jest + RTL 测试与 Sentry 监控。",
+        "company": "佛山市琢光科技有限公司",
+        "period": "2020.08 — 2025.05",
+        "role": "前端开发工程师（组长）",
+        "desc": "负责企业管理后台、App 与数据可视化大屏的前端开发和团队协作，参与多个业务系统持续迭代与维护。",
         "bullets": [
-          "实现 NFT Mint、Staking、多链充值、Claim 等核心 Web3 功能",
-          "开发抽卡、签到、链上任务等增长玩法系统",
-          "开发游戏道具市场与营销活动页",
-          "搭建 Storybook 组件文档系统",
-          "配置 Jest + RTL 自动化测试",
-          "集成 Sentry 错误监控与性能追踪"
-        ]
-      },
-      {
-        "company": "深圳昂当时计有限公司（Web3）",
-        "period": "2022.04 — 2024.05",
-        "role": "中级前端工程师",
-        "desc": "负责核心 Web3 产品前端开发与组件体系建设。基于 Vue3 + TypeScript + UnoCSS + Nuxt.js 构建 Web 应用与 Monorepo；维护 authc-spa-js SDK，开发 Web3 钱包、多链资产管理、Ucollex NFT 盲盒与 Premint 活动系统。组件库复用率达 95%，Ucollex 日交易额突破 500 ETH。",
-        "bullets": [
-          "基于 Vue3 + TypeScript + UnoCSS + Nuxt.js 构建 Web 应用，搭建 Monorepo 工作流",
-          "维护 authc-spa-js SDK，优化文档与自动化测试",
-          "基于 TKey + Authc.io 开发 Web3 钱包，支持多链资产管理与多重签名",
-          "基于 UnoCSS + Vue3 + Storybook 开发多主题组件库",
-          "负责 Dropu 项目前后端开发，参与 ERC721 合约开发",
-          "主导 Ucollex 平台重构，开发 NFT 盲盒、Redeem 模块与跨链资产管理",
-          "开发 Premint NFT 活动系统",
-          "项目成果：组件库复用率达 95%，SDK 接入时间从 2 小时缩短至 30 分钟；Ucollex 日交易额突破 500 ETH"
-        ]
-      },
-      {
-        "company": "Reeman 智能装备有限公司",
-        "period": "2019.09 — 2022.03",
-        "role": "前端工程师",
-        "desc": "负责机器人操作系统 Web 平台与可视化系统。基于 React + TypeScript 构建控制系统，使用 OpenLayers 地图导航、LogicFlow 调度、WebRTC 实时视频与数据监控 Dashboard。",
-        "bullets": [
-          "基于 React + TypeScript 构建机器人控制系统",
-          "使用 OpenLayers 开发地图导航系统",
-          "使用 LogicFlow 构建可视化调度系统",
-          "实现 WebRTC 实时视频传输与远程控制",
-          "开发实时数据监控 Dashboard",
-          "推动前端工程化与自动化测试体系建设"
+          "参与 Vue / React 项目技术选型及工程搭建，基于 Vite 封装通用组件、业务模块与请求层，统一代码规范",
+          "负责登录鉴权、动态路由、角色权限、数据展示、表单和复杂业务交互，完成接口联调与异常处理",
+          "基于 ECharts、DataV 开发数据看板与可视化大屏，实现多维数据展示、图表联动与大屏适配",
+          "通过组件拆分、按需加载和资源优化改善页面性能，负责问题定位、功能测试及线上 Bug 修复",
+          "使用 Nginx、Tomcat、Docker 完成 Windows / Linux 环境部署、HTTPS 配置与故障排查，并使用 AI Coding 工具辅助研发"
         ]
       }
     ],
     "projects": [
       {
-        "name": "Wallet 后台",
-        "role": "技术负责人",
-        "desc": "项目背景：为解决 Web2 用户使用 Web3 钱包的门槛问题，在 Authc 中集成 Wallet 功能，实现无缝的 Web3 体验。",
+        "name": "Songin AI 音乐",
+        "role": "全栈工程师 / 项目负责人 · 2026.02 — 至今",
+        "desc": "面向音乐创作者的 AI SaaS 平台，支持 AI 音乐、歌词、图片、视频及 MV 生成，并提供项目管理、任务追踪、素材管理和多语言运营能力。",
+        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
         "bullets": [
-          "基于 Next.js + TypeScript + TailwindCSS 构建钱包管理系统",
-          "使用 ethers.js + viem 实现智能合约交互，集成 Web3Modal + WalletConnect",
-          "采用 React Query 实现数据状态管理，优化数据流转",
-          "实现多链资产管理（ETH/BSC），支持 ERC20/721/1155 标准",
-          "开发钱包创建、导入、备份及多重签名功能"
+          "设计基于 LLM Tool Calling 的 MV 多轮 Agent 工作流，覆盖输入分析、创意方向、分镜规划、参考图生成、视频渲染和最终合成",
+          "搭建可配置 Agent Skill 体系，将复杂流程拆分为输入分析、创意规划、分镜设计、关键帧设计与场景渲染等独立技能",
+          "抽象多模型适配层，支持流式输出、工具调用、消息持久化、模型切换、超时重试和降级",
+          "实现异步任务、Webhook、任务轮询、积分扣减、失败退款、支付幂等、权限控制及对象存储，打通 AI 生成到产品交付闭环"
         ]
       },
       {
-        "name": "组件库开发",
-        "role": "主要负责人",
-        "desc": "项目背景：统一公司技术栈，提升开发效率，建立统一的设计规范。",
+        "name": "千域 Thousand Realms 智能建站系统",
+        "role": "全栈工程师 · 2025.10 — 至今",
+        "desc": "基于 Next.js 与 PayloadCMS 构建的企业级 Monorepo 多站点内容管理平台，通过 AI 引擎自动筛选、改写和分发内容，日均处理 500+ 篇。",
+        "tech": "Next.js / React / TypeScript / PayloadCMS / Tailwind CSS / shadcn/ui / Turborepo / pnpm workspace / PostgreSQL / Redis / Playwright",
         "bullets": [
-          "基于 UnoCSS + Vue3 + TypeScript + Storybook 开发多主题组件库",
-          "实现 pnpm Monorepo 工作流 + Changesets 版本管理 + GitHub Actions CI/CD",
-          "配置 Vitest + Testing Library 自动化测试，覆盖率达 90%"
+          "主导技术架构设计与 Monorepo 基础设施搭建，建设 60+ 可复用 UI 组件，代码复用率达 60%",
+          "开发 AI 智能内容分发引擎，支持规则筛选、AI 改写、内链生成与多站点分发",
+          "优化前端性能，接口响应速度降低 70%，首屏加载时间控制在 2 秒内"
+        ]
+      },
+      {
+        "name": "盘古视频内容平台",
+        "role": "前端工程师 · 2025.05 — 2025.10",
+        "desc": "基于 Next.js 15、React 19 与 TypeScript 构建的企业级 SSR / SSG 视频平台，支持多语言、多端适配、视频播放、认证和内容管理。",
+        "tech": "Next.js 15 / React 19 / TypeScript / Ant Design / Turbopack / next-intl / NextAuth.js / Query / Zustand / Tailwind CSS / shadcn/ui / xgplayer / video.js / Snowplow / Redis / pnpm / ESLint / Prettier",
+        "bullets": [
+          "搭建 SSR / SSG 工程化体系，开发视频播放、用户认证、内容管理等核心模块，首屏加载控制在 2 秒内",
+          "实现 next-intl 多语言方案，集成 OAuth 与 Snowplow 数据埋点",
+          "制定 Husky + lint-staged 代码规范和 Git 工作流，推进资源压缩、CDN 加速与性能监控"
+        ]
+      },
+      {
+        "name": "燃料电池氢能教具系统",
+        "role": "前端工程师 · 2024.05 — 2025.05",
+        "desc": "教师后台管理系统与学生实操仿真系统，覆盖试卷录入、数据模型配置、仿真数据生成、在线作答和实时数据展示。",
+        "tech": "React / Ant Design / Naive UI / Axios / Windi CSS / ECharts / Meta2d / VueUse / Vue I18n / Moment.js",
+        "bullets": [
+          "负责教师后台与学生实操系统页面、考试答题、数据模型、仿真数据和实时数据模块开发",
+          "优化页面布局、交互流程与操作反馈，协作完成接口联调、问题排查和功能调试"
+        ]
+      },
+      {
+        "name": "华南氢能产业技术创新战略联盟官网",
+        "role": "前端开发工程师 · 2023.10 — 2025.05",
+        "desc": "内容管理后台与官方网站，菜单、栏目及展示内容均可通过后台配置，支持运营团队维护网站内容。",
+        "tech": "Vue / Element UI / Axios / Windi CSS / Vue AMap / 高德地图 SDK / Moment.js",
+        "bullets": [
+          "负责官网及后台管理系统的页面开发、布局实现、样式编写与移动端适配",
+          "对接后台接口，实现菜单、栏目、文章及业务数据的动态展示",
+          "使用组件化方式减少重复代码，并集成高德地图完成地图展示和业务交互"
+        ]
+      },
+      {
+        "name": "广东燃料电池汽车示范应用城市群综合监管平台",
+        "role": "前端开发工程师 · 2022.05 — 2025.05",
+        "desc": "综合监管后台与数据可视化大屏，用于加氢站、氢能车辆资料管理、审批流程及运行数据展示。",
+        "tech": "Vue / Element UI / Axios / Vuex / ECharts / DataV / Vue AMap / PostCSS Px2Rem",
+        "bullets": [
+          "负责后台管理系统和可视化大屏的功能模块开发，完成资料管理、审批流程、数据查询和状态展示",
+          "使用 ECharts、DataV 实现数据图表、统计卡片和可视化看板",
+          "对接后台接口动态展示车辆、加氢站及业务数据，参与布局、交互优化和版本发布"
+        ]
+      },
+      {
+        "name": "燃料电池测试系统",
+        "role": "前端工程师 · 2020.05 — 2023.06",
+        "desc": "用于配置燃料电池采集点位、采集模型和测试方案，并查看测试过程中的实时与历史数据。",
+        "tech": "Vue / Element UI / Axios / ECharts / Meta2d / Vue I18n / VueDraggable / Moment.js / Gzip",
+        "bullets": [
+          "负责测试系统页面布局、功能开发和交互实现，完成采集点位、数据模型、测试方案和测试结果模块",
+          "使用 ECharts、Meta2d 实现实时数据、历史数据和测试过程的图形化展示",
+          "完成数据筛选、表单配置、拖拽操作与测试状态展示，持续优化加载和请求性能"
+        ]
+      },
+      {
+        "name": "佛山市加氢站安全监控智能化综合管理平台",
+        "role": "前端工程师 · 2022.02 — 2022.12",
+        "desc": "包含加氢站管理后台、数据可视化大屏和移动端巡检系统，覆盖报警规则、实时监控、安全考试、巡检与考勤。",
+        "tech": "Vue / Element UI / Axios / ECharts / DataV / Vue AMap / 高德地图 SDK / 海康威视 SDK / PostCSS Px2Rem / Moment.js",
+        "bullets": [
+          "负责数据可视化大屏的页面开发和交互实现，完成实时数据、报警信息和运行状态展示",
+          "使用 ECharts、DataV 搭建监控看板，参与 H5 巡检系统、安全考试、巡检记录和打卡功能开发",
+          "对接高德地图和海康威视 SDK，优化页面加载速度和数据刷新逻辑"
         ]
       }
     ],
     "side": [
       {
-        "name": "LoopLines",
-        "link": "https://looplines.app",
-        "tag": "YouTube 沉浸式英语学习平台（独立开发）",
-        "desc": "集成 YouTube 字幕索引，支持点击单词获取 AI 语境解析、发音与例句；基于 SM-2 间隔重复算法构建词汇复习系统；支持海量字幕全文检索与多模型流式响应；前端 + Cloudflare Workers 边缘服务 + 浏览器扩展独立开发。",
-        "tech": "Vite Plus / React 19 / Hono / Drizzle ORM / Cloudflare Workers (D1) / pnpm Monorepo",
+        "name": "AI Coding 工作流实践",
+        "tag": "个人技术实践",
+        "desc": "持续使用 Claude Code、OpenAI Codex、GitHub Copilot 将 AI 融入需求拆解、代码生成、调试、评审与文档流程，沉淀子 Agent 协作、Skills 复用、上下文管理和 Token 成本优化方法。",
+        "tech": "Claude Code / OpenAI Codex / GPT / Agents / Skills / MCP",
         "bullets": [
-          "集成 YouTube 字幕索引，支持点击任意单词获取 AI 语境解析、发音与例句，实现真实语料驱动的词汇学习",
-          "基于 SM-2 间隔重复算法构建词汇复习系统，复习间隔自适应调整，与 Anki/SuperMemo 同源算法",
-          "支持海量 YouTube 字幕全文检索，快速定位目标词汇在真实对话中的用法",
-          "独立设计服务端 AI 网关，统一 OpenRouter 等多模型路由与流式响应，内置 AI 上下文问答",
-          "基于 pnpm Monorepo 独立开发前端 + 多个 Cloudflare Workers 边缘服务（字幕抓取/索引/全文检索）+ 浏览器扩展，用户数据通过 IndexedDB 本地持久化，无需注册账号"
+          "将复杂需求拆分为可验证任务，结合多 Agent 协作提升交付效率",
+          "实践 Tool Calling、SSE 流式交互和上下文压缩，构建可复用的 AI 工程工作流"
         ]
       }
     ],
-    "open": [
-      [
-        "apitable",
-        "API 导向的低代码平台，Airtable 开源替代方案",
-        "https://github.com/apitable/apitable"
-      ],
-      [
-        "heroui",
-        "美观、快速、现代的 React UI 组件库",
-        "https://github.com/heroui-inc/heroui"
-      ],
-      [
-        "reka-ui",
-        "面向 Vue 的开源无障碍组件库",
-        "https://github.com/unovue/reka-ui"
-      ],
-      [
-        "tdesign-vue-next",
-        "腾讯 TDesign 的 Vue3 组件库",
-        "https://github.com/Tencent/tdesign-vue-next"
-      ]
-    ],
+    "open": [],
     "strengths": [
-      "全栈能力覆盖 Web、移动端、Web3 与 Node / FastAPI 后端，具备从架构设计到前后端一体化独立交付大型项目的能力",
-      "深耕 Web3 领域，EVM + Solana 多链 DApp 完整开发经验，覆盖 DeFi、NFT、Staking、Swap、Wallet 全场景",
-      "拥有多租户 AI SaaS、AI 多 Agent 系统与 React Native 跨平台移动端上线经验，熟悉 LangGraph / Claude Agent SDK 服务端编排",
-      "熟练运用 AI 辅助开发（Claude Code、Copilot、Cursor），注重工程质量、组件体系建设与 CI/CD 自动化"
+      "能独立完成需求分析、架构设计、前后端开发、数据建模、部署运维和上线交付",
+      "兼具 Vue、React、Next.js、Node.js 与 Python 的全栈研发能力，能够在复杂业务中快速完成技术选型和落地",
+      "具备 AI 应用工程实践，熟悉模型接入、Tool Calling、多轮 Agent、Skill / Workflow、SSE、异步任务和上下文管理",
+      "长期使用 Claude Code、OpenAI Codex、GPT 与 GitHub Copilot，重视任务拆解、工程质量和 Token 成本优化"
     ],
     "education": [
       [
-        "湖南工业大学",
-        "本科",
-        "计算机科学与技术",
-        "2022.03 — 2024.06"
-      ],
-      [
-        "北京理工大学珠海学院",
+        "广东理工学院",
         "大专",
-        "人力资源",
-        "2017.03 — 2019.06"
+        "软件技术",
+        "2020 — 2023"
       ]
-    ],
-    "sectionLabels": {
-      "summary": "SUMMARY",
-      "skills": "SKILLS",
-      "experience": "EXPERIENCE",
-      "projects": "PROJECTS",
-      "side": "SIDE PROJECT",
-      "open": "OPEN SOURCE",
-      "strengths": "STRENGTHS",
-      "education": "EDUCATION"
-    },
-    "techLabel": "技术栈"
+    ]
   },
   "en": {
+    "pageTitle": "Jiwang Li · Full-stack Engineer / AI Application Engineer",
     "navLanguage": "中文",
     "print": "Print / Save PDF",
-    "name": "Kaizhi Li",
-    "nameLatin": "LI KAIZHI",
-    "title": "Senior Frontend / AI Full-stack & Web3 Engineer",
-    "summary": "7+ years of frontend engineering experience focused on AI, Web3, and cross-platform application development, with end-to-end ownership of large-scale Web, Mobile, DApp, and multi-tenant AI SaaS products from 0 to 1. Deep expertise in the React / Next.js ecosystem; full-stack EVM + Solana multi-chain DApp capabilities covering DeFi, NFT, Staking, Swap, and Wallet. Hands-on experience shipping AI multi-Agent systems, streaming chat platforms, and React Native cross-platform apps to production. Backend capabilities with Node.js / Next.js server runtime, Cloudflare Workers, and Python FastAPI — experienced in server-side LangGraph / Claude Agent SDK orchestration, Prisma / SQLAlchemy + PostgreSQL data layers, and gRPC / SSE API design, enabling independent end-to-end AI full-stack delivery. Strong background in modern frontend engineering — monorepo architecture, design-token theming, performance optimization, component systems, and CI/CD automation — with the ability to independently own technical decisions and deliver complex projects end to end.",
+    "name": "Jiwang Li",
+    "nameLatin": "LI JIWANG",
+    "title": "Full-stack Engineer / AI Application Engineer",
+    "summary": "Full-stack engineer with 6 years of experience delivering products from requirements and architecture through frontend, backend, deployment and operations. Experienced with Vue, React, Next.js, TypeScript, Node.js / NestJS and Python. Built enterprise systems, content platforms, data visualization products and AI SaaS. Hands-on with GPT, Claude and DeepSeek integrations, Tool Calling, multi-turn agents, Skills / Workflows, SSE streaming and context management. Regularly use Claude Code and OpenAI Codex to improve engineering throughput.",
     "contact": [
       [
         "Email",
-        "kaishuige199612@gmail.com",
-        "mailto:kaishuige199612@gmail.com"
+        "2537791055@qq.com",
+        "mailto:2537791055@qq.com"
       ],
       [
-        "7+ years",
+        "Phone",
+        "15917529255",
+        "tel:15917529255"
+      ],
+      [
+        "6 years",
         "",
         ""
       ],
       [
-        "Tg",
-        "@srysryz",
-        "https://t.me/srysryz"
-      ],
-      [
-        "WeChat",
-        "liangzaikaishui",
+        "Target role",
+        "Full-stack Engineer",
         ""
       ],
       [
-        "GitHub",
-        "kaishuige",
-        "https://github.com/kaishuige"
+        "City",
+        "Foshan",
+        ""
+      ],
+      [
+        "Salary",
+        "12-17K",
+        ""
       ]
     ],
     "sections": {
-      "summary": "Resume",
+      "summary": "Profile",
       "skills": "Professional Skills",
       "experience": "Experience",
       "projects": "Projects",
-      "side": "Side Projects",
-      "open": "Open Source",
+      "side": "AI Coding Practice",
+      "open": "",
       "strengths": "Strengths",
       "education": "Education"
     },
+    "sectionLabels": {
+      "summary": "PROFILE",
+      "skills": "SKILLS",
+      "experience": "EXPERIENCE",
+      "projects": "PROJECTS",
+      "side": "AI CODING",
+      "open": "",
+      "strengths": "STRENGTHS",
+      "education": "EDUCATION"
+    },
+    "techLabel": "Tech stack",
     "skills": [
       [
         "Frontend",
-        "React 19 / Next.js 15 / TypeScript (strict); React Native + Expo; Electron; Vue3 / Nuxt.js\nZustand / TanStack Query / TanStack Router / Pinia; Tailwind CSS v4 / NativeWind / UnoCSS\nComponent libraries: shadcn/ui, Radix UI, HeroUI, TDesign, Element Plus"
+        "Vue 3 / React / Next.js 15 / TypeScript; Vite, Tailwind CSS, Ant Design, Element UI, Naive UI; Zustand, Pinia, Vuex, TanStack Query; SSR / SSG, i18n, responsive and component-driven development"
       ],
       [
-        "Backend / BFF",
-        "Node.js; Next.js Route Handlers & Server Actions; Hono / Cloudflare Workers edge services\nPython: FastAPI / SQLAlchemy / Alembic / pytest; multi-tenant data isolation and dynamic permission model\nData layer: Prisma / Drizzle ORM; PostgreSQL / Cloudflare D1; RESTful / SSE streaming API design\nRPC: ConnectRPC / gRPC-Web / Protocol Buffers (Buf codegen)\nServer-side AI orchestration: LangGraph / LangChain multi-Agent orchestration & streaming services"
+        "Backend & Data",
+        "Node.js / NestJS / Next.js Route Handlers; Python; RESTful APIs, SSE, Webhooks and async jobs; PostgreSQL, MySQL, Redis; Drizzle ORM and SQL data modeling"
       ],
       [
-        "Web3",
-        "Solana: @solana/web3.js, Anchor, SPL Token, Raydium SDK v2, Metaplex UMI\nEVM: ethers.js, wagmi, viem, WalletConnect, RainbowKit; Solidity basics\nCore domains: DeFi, NFT Mint/Staking, Swap (CLMM), Wallet, multi-chain asset management"
+        "AI Engineering",
+        "GPT, Claude and DeepSeek integrations; Tool Calling, multi-turn Agents, Skills / Workflows and context management; Vercel AI SDK, model adapters, streaming, retries and fallbacks; NewAPI and Sub2API"
       ],
       [
-        "AI & Engineering",
-        "AI stack: LangGraph SDK, LangChain, Claude Agent SDK, E2B sandbox, SSE streaming, multi-Agent architecture\nAI-assisted dev: Claude Code, GitHub Copilot, Cursor\nBuild: Vite Plus (oxc + Rolldown) / pnpm Monorepo (catalog)\nInfra: Docker / GitHub Actions / EAS Build / Cloudflare Workers + OpenNext / Wrangler\nQuality: Oxlint (oxc) / ESLint / Ruff / Husky / Vitest / Playwright E2E; Rust basics"
+        "Engineering & Delivery",
+        "pnpm Monorepo, Turborepo, Docker, Nginx, Linux, GitHub Actions; Playwright, ESLint, Prettier; performance, permission models, CI/CD and production troubleshooting; Claude Code, OpenAI Codex, GitHub Copilot"
+      ],
+      [
+        "Visualization & Platforms",
+        "ECharts, DataV, Meta2d, xgplayer, video.js; enterprise admin, video platforms, CMS, Web / Mobile / PWA and map / video SDK integrations"
       ]
     ],
     "experience": [
       {
-        "company": "Consensus Edge (Shenzhen)",
-        "period": "2025.06 — Present",
-        "role": "Senior Frontend Engineer",
-        "items": [
-          {
-            "name": "SalesAI",
-            "tag": "Multi-tenant AI SaaS · Full-stack",
-            "desc": "Frontend architecture and full-stack development for a multi-product, multi-tenant AI SaaS. Built Next.js 15 + React 19 pnpm monorepo, AI workbench with E2B + Claude Agent SDK, real-time support chat, quota metering and CI pipelines.",
-            "tech": "Next.js / React / Tailwind / TanStack Query / FastAPI / PostgreSQL / Claude Agent SDK",
-            "bullets": [
-              "基于 Next.js 15 + React 19 + Tailwind CSS v4 搭建 pnpm Monorepo：租户控制台、平台运营后台、官网三端应用与 auth / client / i18n / shell / ui 共享包，统一 Design Token 与主题体系",
-              "设计 Server Component 优先的渲染边界与 TanStack Query 数据层，实现租户路由守卫与动态 capability 权限驱动的前端能力控制",
-              "主导私域 AI 工作台：基于 E2B 沙箱 + Claude Agent SDK 的 Builder 对话式配置向导、实时人工接管聊天（含图片 / 文件附件）、活动统计与配额计量",
-              "开发千川投流 AI 工作台：广告账户 OAuth 接入、监控生命周期、规则配置、排行与运维面板",
-              "参与 FastAPI + SQLAlchemy + Alembic 后端开发：达人导入批次、Apollo 加好友调度、配额计量、活动统计等模块及 pytest 覆盖",
-              "独立实现 @salesai/i18n 国际化方案（locale 解析、字典加载、Provider 与语言切换）与 typed API client",
-              "建设 GitHub Actions CI（typecheck / eslint / vitest / ruff / pytest）与 web / admin / site 三条部署流水线"
-            ]
-          },
-          {
-            "name": "Paratrix / KARPAK",
-            "link": "https://discover.karpak.xyz/",
-            "tag": "Solana RWA Protocol",
-            "desc": "Frontend architecture for tokenized parking revenue rights. Wallets, staking, swaps, analytics and responsive multi-theme UI.",
-            "tech": "Next.js / React / TypeScript / Solana / Anchor / Raydium",
-            "bullets": [
-              "基于 Next.js 15 + React 19 + TypeScript strict 构建高性能 Web3 应用",
-              "基于 OpenNext + Wrangler 部署至 Cloudflare Workers",
-              "集成 Phantom / Solflare 钱包，实现多网络切换与 WalletModal 自定义钱包系统",
-              "实现 FT Staking 与 NFT Staking 系统，支持 7 天冷却期、收益领取、APY Dashboard",
-              "基于 Anchor + Solana IDL 完成链上智能合约交互",
-              "基于 Raydium SDK 实现 SOL/KPK/dUSDC Swap，多跳路由与滑点控制",
-              "集成 DexScreener API + TradingView 实现实时行情图表",
-              "完成响应式布局与多主题系统，优化移动端交互体验"
-            ]
-          },
-          {
-            "name": "DoWhat Web",
-            "link": "https://staging-chat.dowhat.me/",
-            "tag": "AI Assistant Web",
-            "desc": "Built multi-agent real-time streaming conversations with history, infinite scroll, interruption and rich messages.",
-            "tech": "Next.js / React / LangGraph / SSE / Zustand",
-            "bullets": [
-              "基于 LangGraph SDK + SSE 实现低延迟流式 AI 对话体验",
-              "实现 AI 历史会话、无限滚动、流式中断与恢复机制",
-              "支持多 Agent 与复杂富消息场景渲染",
-              "基于 protobuf 共享类型实现前后端类型安全",
-              "搭建 Playwright E2E 自动化测试体系",
-              "配置 Docker 多环境部署流程"
-            ]
-          }
+        "company": "Guangzhou Shengyan Technology Co., Ltd.",
+        "period": "2025.05 — Present",
+        "role": "Full-stack Engineer",
+        "desc": "Own full-stack delivery for enterprise admin, video, content management and AI creation products, including architecture, data, performance and engineering practices.",
+        "bullets": [
+          "Build frontend and data layers with React / Vue / Next.js, Node.js and PostgreSQL; apply SSR / SSG, Monorepo and component architecture",
+          "Contribute to Songin AI music and MV creation platform, connecting music, lyrics, image and video generation into creative workflows",
+          "Design multi-turn Agent workflows with LLM Tool Calling and Skills for task decomposition, orchestration and persisted state",
+          "Build model adapters with SSE, async jobs, Webhooks, retries and fallbacks",
+          "Use Claude Code, OpenAI Codex and GPT for analysis, implementation, debugging and code review"
         ]
       },
       {
-        "company": "Fangyuzhou Technology (Web3)",
-        "period": "2024.06 — 2025.06",
-        "role": "Web3 Frontend Developer",
-        "desc": "Owned L3E7 and L3E7-UAW frontend delivery from zero to production: NFT mint, staking, multi-chain deposits, claims, game mechanics, Storybook, tests and Sentry.",
+        "company": "Foshan Zhuoguang Technology Co., Ltd.",
+        "period": "2020.08 — 2025.05",
+        "role": "Frontend Engineer / Team Lead",
+        "desc": "Delivered enterprise admin, app and data visualization products while leading frontend architecture, quality and collaboration.",
         "bullets": [
-          "实现 NFT Mint、Staking、多链充值、Claim 等核心 Web3 功能",
-          "开发抽卡、签到、链上任务等增长玩法系统",
-          "开发游戏道具市场与营销活动页",
-          "搭建 Storybook 组件文档系统",
-          "配置 Jest + RTL 自动化测试",
-          "集成 Sentry 错误监控与性能追踪"
-        ]
-      },
-      {
-        "company": "Andang Shiji Technology (Web3)",
-        "period": "2022.04 — 2024.05",
-        "role": "Frontend Engineer",
-        "desc": "Built Vue3/Nuxt Web3 products and monorepo, wallet and multi-chain asset management, NFT blind boxes and activity systems. Component reuse reached 95%; Ucollex daily volume exceeded 500 ETH.",
-        "bullets": [
-          "基于 Vue3 + TypeScript + UnoCSS + Nuxt.js 构建 Web 应用，搭建 Monorepo 工作流",
-          "维护 authc-spa-js SDK，优化文档与自动化测试",
-          "基于 TKey + Authc.io 开发 Web3 钱包，支持多链资产管理与多重签名",
-          "基于 UnoCSS + Vue3 + Storybook 开发多主题组件库",
-          "负责 Dropu 项目前后端开发，参与 ERC721 合约开发",
-          "主导 Ucollex 平台重构，开发 NFT 盲盒、Redeem 模块与跨链资产管理",
-          "开发 Premint NFT 活动系统",
-          "项目成果：组件库复用率达 95%，SDK 接入时间从 2 小时缩短至 30 分钟；Ucollex 日交易额突破 500 ETH"
-        ]
-      },
-      {
-        "company": "Reeman Intelligent Equipment",
-        "period": "2019.09 — 2022.03",
-        "role": "Frontend Engineer",
-        "desc": "Built robot operating system web platform, map navigation with OpenLayers, visual scheduling with LogicFlow, WebRTC remote control and monitoring dashboards.",
-        "bullets": [
-          "基于 React + TypeScript 构建机器人控制系统",
-          "使用 OpenLayers 开发地图导航系统",
-          "使用 LogicFlow 构建可视化调度系统",
-          "实现 WebRTC 实时视频传输与远程控制",
-          "开发实时数据监控 Dashboard",
-          "推动前端工程化与自动化测试体系建设"
+          "Selected and scaffolded Vue / React projects with Vite; built shared components, business modules and request layers",
+          "Implemented authentication, dynamic routing, role permissions, data views, forms and complex interactions",
+          "Built dashboards with ECharts and DataV for multi-dimensional data, chart linking and large-screen layouts",
+          "Improved performance through component decomposition, lazy loading and asset optimization; handled production issues",
+          "Deployed projects on Windows / Linux with Nginx, Tomcat and Docker; used AI coding tools for refactoring and reviews"
         ]
       }
     ],
     "projects": [
       {
-        "name": "Wallet Admin",
-        "role": "Tech Lead",
-        "desc": "Web3 wallet management system integrated into Authc to reduce onboarding friction.",
+        "name": "Songin AI Music",
+        "role": "Full-stack Engineer / Project Lead · 2026.02 — Present",
+        "desc": "AI SaaS platform for creators with music, lyrics, image, video and MV generation, project management, task tracking, asset management and multilingual operations.",
+        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
         "bullets": [
-          "基于 Next.js + TypeScript + TailwindCSS 构建钱包管理系统",
-          "使用 ethers.js + viem 实现智能合约交互，集成 Web3Modal + WalletConnect",
-          "采用 React Query 实现数据状态管理，优化数据流转",
-          "实现多链资产管理（ETH/BSC），支持 ERC20/721/1155 标准",
-          "开发钱包创建、导入、备份及多重签名功能"
+          "Designed an LLM Tool Calling MV Agent workflow from input analysis and creative direction to storyboard, reference images, rendering and compositing",
+          "Built configurable Agent Skills for analysis, creative planning, storyboards, keyframes and scene rendering",
+          "Created model adapters with streaming, tool calls, persistence, switching, retries and fallbacks",
+          "Implemented async jobs, Webhooks, polling, credits, refunds, payment idempotency, permissions and object storage"
         ]
       },
       {
-        "name": "Component Library",
-        "role": "Lead",
-        "desc": "Unified design system and tooling for the company.",
+        "name": "Thousand Realms Intelligent Website Builder",
+        "role": "Full-stack Engineer · 2025.10 — Present",
+        "desc": "Enterprise multi-site CMS built with Next.js and PayloadCMS. An AI distribution engine filters, rewrites and distributes content to independent sites; the platform processes 500+ articles per day.",
+        "tech": "Next.js / React / TypeScript / PayloadCMS / Tailwind CSS / shadcn/ui / Turborepo / pnpm workspace / PostgreSQL / Redis / Playwright",
         "bullets": [
-          "基于 UnoCSS + Vue3 + TypeScript + Storybook 开发多主题组件库",
-          "实现 pnpm Monorepo 工作流 + Changesets 版本管理 + GitHub Actions CI/CD",
-          "配置 Vitest + Testing Library 自动化测试，覆盖率达 90%"
+          "Led architecture and Monorepo infrastructure; built 60+ reusable UI components with 60% code reuse",
+          "Developed AI content distribution with rule filtering, rewriting, internal links and multi-site publishing",
+          "Reduced API response time by 70% and kept first paint under 2 seconds"
+        ]
+      },
+      {
+        "name": "Pangu Video Platform",
+        "role": "Frontend Engineer · 2025.05 — 2025.10",
+        "desc": "Enterprise SSR / SSG video platform built with Next.js 15, React 19 and TypeScript, supporting i18n, Web / Mobile / PWA, playback, authentication and CMS.",
+        "tech": "Next.js 15 / React 19 / TypeScript / Ant Design / Turbopack / next-intl / NextAuth.js / Query / Zustand / Tailwind CSS / shadcn/ui / xgplayer / video.js / Snowplow / Redis / pnpm / ESLint / Prettier",
+        "bullets": [
+          "Established SSR / SSG architecture and delivered playback, auth and content modules with first paint under 2 seconds",
+          "Implemented next-intl, OAuth and Snowplow analytics",
+          "Defined Husky + lint-staged workflows and improved compression, CDN delivery and monitoring"
+        ]
+      },
+      {
+        "name": "Hydrogen Training & Simulation System",
+        "role": "Frontend Engineer · 2024.05 — 2025.05",
+        "desc": "Teacher administration and student simulation systems covering exams, data models, generated simulations, online answers and real-time data.",
+        "tech": "React / Ant Design / Naive UI / Axios / Windi CSS / ECharts / Meta2d / VueUse / Vue I18n / Moment.js",
+        "bullets": [
+          "Delivered teacher and student interfaces, exams, answers, data models, simulation and real-time modules",
+          "Improved layouts, interaction flows and feedback while collaborating on API integration and debugging"
+        ]
+      },
+      {
+        "name": "South China Hydrogen Energy Alliance Website",
+        "role": "Frontend Engineer · 2023.10 — 2025.05",
+        "desc": "CMS backend and public website with configurable menus, columns and content for operations teams.",
+        "tech": "Vue / Element UI / Axios / Windi CSS / Vue AMap / Gaode Maps SDK / Moment.js",
+        "bullets": [
+          "Delivered website and admin interfaces, responsive layouts and mobile adaptation",
+          "Connected APIs for menus, columns, articles and business data",
+          "Built reusable components and integrated map interactions"
+        ]
+      },
+      {
+        "name": "Guangdong Fuel-cell Vehicle Regulatory Platform",
+        "role": "Frontend Engineer · 2022.05 — 2025.05",
+        "desc": "Regulatory admin and visualization wall for hydrogen stations, fuel-cell vehicles, approvals and operational data.",
+        "tech": "Vue / Element UI / Axios / Vuex / ECharts / DataV / Vue AMap / PostCSS Px2Rem",
+        "bullets": [
+          "Built data management, approval, query and status modules",
+          "Created vehicle, station and operations dashboards with ECharts and DataV",
+          "Connected APIs and supported layout, interaction and release work"
+        ]
+      },
+      {
+        "name": "Fuel-cell Testing System",
+        "role": "Frontend Engineer · 2020.05 — 2023.06",
+        "desc": "Testing system for collection points, data models, test plans and real-time or historical fuel-cell data.",
+        "tech": "Vue / Element UI / Axios / ECharts / Meta2d / Vue I18n / VueDraggable / Moment.js / Gzip",
+        "bullets": [
+          "Delivered collection point, data model, test plan and results modules",
+          "Visualized real-time, historical and testing data with ECharts and Meta2d",
+          "Built filtering, form configuration, drag-and-drop and status views"
+        ]
+      },
+      {
+        "name": "Foshan Hydrogen Station Safety Monitoring Platform",
+        "role": "Frontend Engineer · 2022.02 — 2022.12",
+        "desc": "Admin, visualization wall and mobile inspection system for alarm rules, monitoring, safety exams, inspections and attendance.",
+        "tech": "Vue / Element UI / Axios / ECharts / DataV / Vue AMap / Gaode Maps SDK / Hikvision SDK / PostCSS Px2Rem / Moment.js",
+        "bullets": [
+          "Built visualization wall interactions for real-time station data, alarms and operating status",
+          "Contributed to mobile inspections, safety exams, inspection records and check-ins",
+          "Integrated map and video SDKs and optimized refresh logic"
         ]
       }
     ],
     "side": [
       {
-        "name": "LoopLines",
-        "link": "https://looplines.app",
-        "tag": "Immersive YouTube English learning platform",
-        "desc": "AI context explanations for subtitles, SM-2 spaced repetition, full-text search and a Cloudflare Workers edge architecture.",
-        "tech": "Vite Plus / React 19 / Hono / Drizzle / Cloudflare Workers",
+        "name": "AI Coding Workflow Practice",
+        "tag": "Independent technical practice",
+        "desc": "Continuously integrate Claude Code, OpenAI Codex and GitHub Copilot into planning, implementation, debugging, review and documentation. Developed repeatable practices for sub-agent collaboration, Skills reuse, context management and token efficiency.",
+        "tech": "Claude Code / OpenAI Codex / GPT / Agents / Skills / MCP",
         "bullets": [
-          "集成 YouTube 字幕索引，支持点击任意单词获取 AI 语境解析、发音与例句，实现真实语料驱动的词汇学习",
-          "基于 SM-2 间隔重复算法构建词汇复习系统，复习间隔自适应调整，与 Anki/SuperMemo 同源算法",
-          "支持海量 YouTube 字幕全文检索，快速定位目标词汇在真实对话中的用法",
-          "独立设计服务端 AI 网关，统一 OpenRouter 等多模型路由与流式响应，内置 AI 上下文问答",
-          "基于 pnpm Monorepo 独立开发前端 + 多个 Cloudflare Workers 边缘服务（字幕抓取/索引/全文检索）+ 浏览器扩展，用户数据通过 IndexedDB 本地持久化，无需注册账号"
+          "Break complex requirements into verifiable tasks and coordinate agents for faster delivery",
+          "Apply Tool Calling, SSE streaming and context compression to build reusable AI workflows"
         ]
       }
     ],
-    "open": [
-      [
-        "apitable",
-        "API-first low-code platform",
-        "https://github.com/apitable/apitable"
-      ],
-      [
-        "heroui",
-        "Modern React UI library",
-        "https://github.com/heroui-inc/heroui"
-      ],
-      [
-        "reka-ui",
-        "Accessible Vue component library",
-        "https://github.com/unovue/reka-ui"
-      ],
-      [
-        "tdesign-vue-next",
-        "Tencent Vue3 component library",
-        "https://github.com/Tencent/tdesign-vue-next"
-      ]
-    ],
+    "open": [],
     "strengths": [
-      "Full-stack delivery across web, mobile, Web3, Node and FastAPI.",
-      "Deep EVM + Solana DApp experience across DeFi, NFT, staking, swaps and wallets.",
-      "Built multi-tenant AI SaaS, multi-agent systems and React Native apps.",
-      "Strong engineering quality, component systems and CI/CD automation."
+      "Own end-to-end delivery from requirements and architecture through frontend, backend, data modeling, deployment and operations",
+      "Combine Vue, React, Next.js, Node.js and Python across complex business systems and AI products",
+      "Experienced with model integrations, Tool Calling, multi-turn Agents, Skills / Workflows, SSE, async jobs and context management",
+      "Use Claude Code, OpenAI Codex, GPT and GitHub Copilot with a focus on task decomposition, engineering quality and token efficiency"
     ],
     "education": [
       [
-        "Hunan University of Technology",
-        "Bachelor",
-        "Computer Science",
-        "2022.03 — 2024.06"
-      ],
-      [
-        "Beijing Institute of Technology Zhuhai",
-        "Associate",
-        "Human Resources",
-        "2017.03 — 2019.06"
+        "Guangdong Polytechnic College",
+        "Associate Degree",
+        "Software Technology",
+        "2020 — 2023"
       ]
-    ],
-    "sectionLabels": {
-      "summary": "SUMMARY",
-      "skills": "SKILLS",
-      "experience": "EXPERIENCE",
-      "projects": "PROJECTS",
-      "side": "SIDE PROJECT",
-      "open": "OPEN SOURCE",
-      "strengths": "STRENGTHS",
-      "education": "EDUCATION"
-    },
-    "techLabel": "Tech stack"
+    ]
   }
 }
