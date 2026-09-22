@@ -32,11 +32,6 @@
         "求职意向",
         "全栈工程师",
         ""
-      ],
-      [
-        "期望城市",
-        "佛山",
-        ""
       ]
     ],
     "sections": {
@@ -122,7 +117,8 @@
           "抽象统一多模型适配层，接入文本、音乐、图片和视频生成模型，支持 SSE 流式输出、工具调用、模型切换、超时重试、失败降级与结果追踪",
           "设计 AI 生成任务基础设施，落地异步队列、Webhook、轮询、进度同步、积分扣减与失败退款，提升长耗时生成流程的稳定性",
           "接入 Stripe Checkout 与订阅支付，完成支付回调、订单状态同步、订阅权益与积分发放、支付幂等和异常补偿，打通 AI 生成到商业化交付闭环"
-        ]
+        ],
+        "company": "广州晟衍科技有限公司"
       },
       {
         "name": "千域 Thousand Realms 智能建站系统",
@@ -136,7 +132,8 @@
           "接入 AI 改写与内容增强能力，自动生成标题、摘要、正文和站内链接，并结合内容审核、任务队列和失败重试完成批量分发，日均处理 500+ 篇",
           "建设 60+ 可复用 UI 组件和统一设计系统，代码复用率达到 60%；通过缓存、请求合并和数据查询优化将接口响应时间降低 70%，首屏加载控制在 2 秒内",
           "完善 PostgreSQL / Redis 数据层、Playwright 自动化测试和团队代码规范，提升多站点发布流程的稳定性与可维护性"
-        ]
+        ],
+        "company": "广州晟衍科技有限公司"
       },
       {
         "name": "盘古视频内容平台",
@@ -147,7 +144,8 @@
           "搭建 SSR / SSG 工程化体系，开发视频播放、用户认证、内容管理等核心模块，首屏加载控制在 2 秒内",
           "实现 next-intl 多语言方案，集成 OAuth 与 Snowplow 数据埋点",
           "制定 Husky + lint-staged 代码规范和 Git 工作流，推进资源压缩、CDN 加速与性能监控"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       },
       {
         "name": "燃料电池氢能教具系统",
@@ -157,7 +155,8 @@
         "bullets": [
           "负责教师后台与学生实操系统页面、考试答题、数据模型、仿真数据和实时数据模块开发",
           "优化页面布局、交互流程与操作反馈，协作完成接口联调、问题排查和功能调试"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       },
       {
         "name": "华南氢能产业技术创新战略联盟官网",
@@ -168,7 +167,8 @@
           "负责官网及后台管理系统的页面开发、布局实现、样式编写与移动端适配",
           "对接后台接口，实现菜单、栏目、文章及业务数据的动态展示",
           "使用组件化方式减少重复代码，并集成高德地图完成地图展示和业务交互"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       },
       {
         "name": "广东燃料电池汽车示范应用城市群综合监管平台",
@@ -179,7 +179,8 @@
           "负责后台管理系统和可视化大屏的功能模块开发，完成资料管理、审批流程、数据查询和状态展示",
           "使用 ECharts、DataV 实现数据图表、统计卡片和可视化看板",
           "对接后台接口动态展示车辆、加氢站及业务数据，参与布局、交互优化和版本发布"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       },
       {
         "name": "燃料电池测试系统",
@@ -190,7 +191,8 @@
           "负责测试系统页面布局、功能开发和交互实现，完成采集点位、数据模型、测试方案和测试结果模块",
           "使用 ECharts、Meta2d 实现实时数据、历史数据和测试过程的图形化展示",
           "完成数据筛选、表单配置、拖拽操作与测试状态展示，持续优化加载和请求性能"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       },
       {
         "name": "佛山市加氢站安全监控智能化综合管理平台",
@@ -201,7 +203,8 @@
           "负责数据可视化大屏的页面开发和交互实现，完成实时数据、报警信息和运行状态展示",
           "使用 ECharts、DataV 搭建监控看板，参与 H5 巡检系统、安全考试、巡检记录和打卡功能开发",
           "对接高德地图和海康威视 SDK，优化页面加载速度和数据刷新逻辑"
-        ]
+        ],
+        "company": "佛山市琢光科技有限公司"
       }
     ],
     "side": [
@@ -275,11 +278,6 @@
       [
         "Target role",
         "Full-stack Engineer",
-        ""
-      ],
-      [
-        "City",
-        "Foshan",
         ""
       ]
     ],
@@ -366,7 +364,8 @@
           "Created a unified multi-model adapter for text, music, image and video generation with SSE streaming, tool calls, model switching, retries, fallbacks and result tracking",
           "Built the async generation infrastructure with queues, Webhooks, polling, progress sync, credit deduction and failure refunds for reliable long-running AI jobs",
           "Integrated Stripe Checkout and subscriptions with payment Webhooks, order synchronization, entitlement and credit fulfillment, idempotency and recovery flows"
-        ]
+        ],
+        "company": "Guangzhou Shengyan Technology Co., Ltd."
       },
       {
         "name": "Thousand Realms Intelligent Website Builder",
@@ -380,7 +379,8 @@
           "Integrated AI rewriting and content enrichment to generate titles, summaries, body copy and internal links; combined moderation, job queues and retries to process 500+ articles per day",
           "Created a shared design system with 60+ reusable UI components and 60% code reuse; reduced API response time by 70% through caching, request batching and query optimization",
           "Established PostgreSQL / Redis data patterns, Playwright automation and team coding standards to improve multi-site publishing reliability and maintainability"
-        ]
+        ],
+        "company": "Guangzhou Shengyan Technology Co., Ltd."
       },
       {
         "name": "Pangu Video Platform",
@@ -391,7 +391,8 @@
           "Established SSR / SSG architecture and delivered playback, auth and content modules with first paint under 2 seconds",
           "Implemented next-intl, OAuth and Snowplow analytics",
           "Defined Husky + lint-staged workflows and improved compression, CDN delivery and monitoring"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       },
       {
         "name": "Hydrogen Training & Simulation System",
@@ -401,7 +402,8 @@
         "bullets": [
           "Delivered teacher and student interfaces, exams, answers, data models, simulation and real-time modules",
           "Improved layouts, interaction flows and feedback while collaborating on API integration and debugging"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       },
       {
         "name": "South China Hydrogen Energy Alliance Website",
@@ -412,7 +414,8 @@
           "Delivered website and admin interfaces, responsive layouts and mobile adaptation",
           "Connected APIs for menus, columns, articles and business data",
           "Built reusable components and integrated map interactions"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       },
       {
         "name": "Guangdong Fuel-cell Vehicle Regulatory Platform",
@@ -423,7 +426,8 @@
           "Built data management, approval, query and status modules",
           "Created vehicle, station and operations dashboards with ECharts and DataV",
           "Connected APIs and supported layout, interaction and release work"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       },
       {
         "name": "Fuel-cell Testing System",
@@ -434,7 +438,8 @@
           "Delivered collection point, data model, test plan and results modules",
           "Visualized real-time, historical and testing data with ECharts and Meta2d",
           "Built filtering, form configuration, drag-and-drop and status views"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       },
       {
         "name": "Foshan Hydrogen Station Safety Monitoring Platform",
@@ -445,7 +450,8 @@
           "Built visualization wall interactions for real-time station data, alarms and operating status",
           "Contributed to mobile inspections, safety exams, inspection records and check-ins",
           "Integrated map and video SDKs and optimized refresh logic"
-        ]
+        ],
+        "company": "Foshan Zhuoguang Technology Co., Ltd."
       }
     ],
     "side": [
@@ -488,4 +494,3 @@
     ]
   }
 }
-
