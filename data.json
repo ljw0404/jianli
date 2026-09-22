@@ -66,7 +66,7 @@
       ],
       [
         "AI 应用工程",
-        "GPT、Claude、DeepSeek 模型接入；Tool Calling、多轮 Agent、Skill / Workflow、上下文管理；Vercel AI SDK、多模型适配、流式输出、任务重试与降级；NewAPI、Sub2API 模型服务管理"
+        "GPT、Claude、DeepSeek 等模型接入；LangChain（模型与工具抽象、结构化输出）与 LangGraph（多步骤工作流、状态持久化与人工确认）；Tool Calling、多轮 Agent、Skill / Workflow、上下文管理；Vercel AI SDK、多模型适配、SSE 流式输出、异步任务、重试与降级；NewAPI、Sub2API 模型服务管理"
       ],
       [
         "工程化与部署",
@@ -109,11 +109,11 @@
       {
         "name": "Songin AI 音乐",
         "role": "全栈工程师 / 项目负责人 · 2026.02 — 至今",
-        "desc": "面向音乐创作者的 AI 原生 SaaS 平台，围绕 AI 音乐与 MV 创作构建从灵感输入、歌词与音乐生成，到分镜规划、画面生成、视频渲染和成片合成的完整工作流；同时提供项目管理、素材资产管理、积分计费与 Stripe 订阅支付能力。",
-        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
+        "desc": "面向音乐创作者的 AI 原生 SaaS 平台，围绕 AI 音乐与 MV 创作构建从灵感输入、歌词与音乐生成，到分镜规划、画面生成、视频渲染和成片合成的完整工作流；同时提供项目管理、素材资产管理、积分计费与 Stripe 订阅支付能力。使用 LangChain 统一模型、提示词与工具调用，使用 LangGraph 编排可暂停、可恢复的多步骤 MV 创作流程。",
+        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK / LangChain / LangGraph",
         "bullets": [
-          "负责 AI 创作核心链路设计，基于 LLM Tool Calling 构建多轮 MV Agent，串联需求理解、创意策划、歌词生成、音乐生成、分镜规划、参考图生成、视频渲染与成片合成",
-          "搭建可配置的 Agent / Skill / Workflow 体系，将复杂创作任务拆解为可复用技能，支持上下文传递、任务编排、状态持久化和人工确认节点",
+          "负责 AI 创作核心链路设计，基于 LangChain 的模型与工具抽象、Tool Calling 构建多轮 MV Agent，串联需求理解、创意策划、歌词生成、音乐生成、分镜规划、参考图生成、视频渲染与成片合成",
+          "使用 LangGraph 编排分析输入、创意方向、风格选择、参考图、分镜与渲染等多步骤工作流，结合状态持久化、人工确认节点和失败恢复保证长流程可继续执行",
           "抽象统一多模型适配层，接入文本、音乐、图片和视频生成模型，支持 SSE 流式输出、工具调用、模型切换、超时重试、失败降级与结果追踪",
           "设计 AI 生成任务基础设施，落地异步队列、Webhook、轮询、进度同步、积分扣减与失败退款，提升长耗时生成流程的稳定性",
           "接入 Stripe Checkout 与订阅支付，完成支付回调、订单状态同步、订阅权益与积分发放、支付幂等和异常补偿，打通 AI 生成到商业化交付闭环"
@@ -313,7 +313,7 @@
       ],
       [
         "AI Engineering",
-        "GPT, Claude and DeepSeek integrations; Tool Calling, multi-turn Agents, Skills / Workflows and context management; Vercel AI SDK, model adapters, streaming, retries and fallbacks; NewAPI and Sub2API"
+        "GPT, Claude and DeepSeek integrations; LangChain for model/tool abstraction and structured output; LangGraph for multi-step workflows, persisted state and human approval; Tool Calling, multi-turn Agents, Skills / Workflows and context management; Vercel AI SDK, model adapters, streaming, async jobs, retries and fallbacks; NewAPI and Sub2API"
       ],
       [
         "Engineering & Delivery",
@@ -356,11 +356,11 @@
       {
         "name": "Songin AI Music",
         "role": "Full-stack Engineer / Project Lead · 2026.02 — Present",
-        "desc": "AI-native SaaS platform for music creators, built around an end-to-end AI music and MV workflow from ideation, lyrics and music generation to storyboards, visual generation, video rendering and final compositing, with project management, asset management, credit billing and Stripe subscriptions.",
-        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
+        "desc": "AI-native SaaS platform for music creators, built around an end-to-end AI music and MV workflow from ideation, lyrics and music generation to storyboards, visual generation, video rendering and final compositing, with project management, asset management, credit billing and Stripe subscriptions. Uses LangChain for unified model, prompt and tool abstractions, and LangGraph to orchestrate pausable, resumable multi-step MV workflows.",
+        "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK / LangChain / LangGraph",
         "bullets": [
-          "Owned the core AI creation flow and designed an LLM Tool Calling MV Agent covering intent understanding, creative planning, lyric generation, music generation, storyboards, reference images, video rendering and final compositing",
-          "Built a configurable Agent / Skill / Workflow system that decomposes complex creative tasks into reusable capabilities with context passing, orchestration, persisted state and human approval steps",
+          "Owned the core AI creation flow; used LangChain model and tool abstractions with Tool Calling to build a multi-turn MV Agent covering intent understanding, creative planning, lyric and music generation, storyboards, reference images, video rendering and final compositing",
+          "Used LangGraph to orchestrate input analysis, creative direction, style selection, reference design, scene planning and rendering with persisted state, human approval nodes and failure recovery for long-running workflows",
           "Created a unified multi-model adapter for text, music, image and video generation with SSE streaming, tool calls, model switching, retries, fallbacks and result tracking",
           "Built the async generation infrastructure with queues, Webhooks, polling, progress sync, credit deduction and failure refunds for reliable long-running AI jobs",
           "Integrated Stripe Checkout and subscriptions with payment Webhooks, order synchronization, entitlement and credit fulfillment, idempotency and recovery flows"
