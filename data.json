@@ -6,7 +6,7 @@
     "name": "李继旺",
     "nameLatin": "LI JIWANG",
     "title": "全栈工程师 / AI 应用工程师",
-    "summary": "6 年全栈研发经验，具备从需求分析、架构设计、前后端开发到部署运维的完整交付能力。熟悉 Vue、React、Next.js、TypeScript、Node.js / NestJS 与 Python，能够独立构建企业管理系统、内容平台、数据可视化产品及 AI SaaS。深入实践 GPT、Claude、DeepSeek 等模型接入、Tool Calling、多轮 Agent、Skill / Workflow、SSE 流式输出与上下文管理，并长期使用 Claude Code、OpenAI Codex 等 AI Coding 工具提升研发效率。",
+    "summary": "6 年全栈研发经验，具备从需求分析、架构设计、前后端开发到部署运维的完整交付能力。熟悉 Vue、React、Next.js、TypeScript、Node.js / NestJS 与 Python，能够独立构建企业管理系统、内容平台、数据可视化产品及 AI SaaS。深入实践 GPT、Claude、DeepSeek 等模型接入、Tool Calling、多轮 Agent、Skill / Workflow、SSE 流式输出与上下文管理，并熟悉 Vercel、Docker、Nginx 与 GitHub Actions 等部署和 CI/CD 方案，能够搭建自动构建、测试、发布与回滚流程。长期使用 Claude Code、OpenAI Codex 等 AI Coding 工具提升研发效率。",
     "contact": [
       [
         "Email",
@@ -17,6 +17,11 @@
         "电话",
         "15917529255",
         "tel:15917529255"
+      ],
+      [
+        "GitHub",
+        "LiveAckerman",
+        "https://github.com/LiveAckerman"
       ],
       [
         "6 年经验",
@@ -40,7 +45,7 @@
       ]
     ],
     "sections": {
-      "summary": "个人优势",
+      "summary": "个人简历",
       "skills": "专业技能",
       "experience": "工作经历",
       "projects": "项目经历",
@@ -114,24 +119,28 @@
       {
         "name": "Songin AI 音乐",
         "role": "全栈工程师 / 项目负责人 · 2026.02 — 至今",
-        "desc": "面向音乐创作者的 AI SaaS 平台，支持 AI 音乐、歌词、图片、视频及 MV 生成，并提供项目管理、任务追踪、素材管理和多语言运营能力。",
+        "desc": "面向音乐创作者的 AI 原生 SaaS 平台，围绕 AI 音乐与 MV 创作构建从灵感输入、歌词与音乐生成，到分镜规划、画面生成、视频渲染和成片合成的完整工作流；同时提供项目管理、素材资产管理、积分计费与 Stripe 订阅支付能力。",
         "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
         "bullets": [
-          "设计基于 LLM Tool Calling 的 MV 多轮 Agent 工作流，覆盖输入分析、创意方向、分镜规划、参考图生成、视频渲染和最终合成",
-          "搭建可配置 Agent Skill 体系，将复杂流程拆分为输入分析、创意规划、分镜设计、关键帧设计与场景渲染等独立技能",
-          "抽象多模型适配层，支持流式输出、工具调用、消息持久化、模型切换、超时重试和降级",
-          "实现异步任务、Webhook、任务轮询、积分扣减、失败退款、支付幂等、权限控制及对象存储，打通 AI 生成到产品交付闭环"
+          "负责 AI 创作核心链路设计，基于 LLM Tool Calling 构建多轮 MV Agent，串联需求理解、创意策划、歌词生成、音乐生成、分镜规划、参考图生成、视频渲染与成片合成",
+          "搭建可配置的 Agent / Skill / Workflow 体系，将复杂创作任务拆解为可复用技能，支持上下文传递、任务编排、状态持久化和人工确认节点",
+          "抽象统一多模型适配层，接入文本、音乐、图片和视频生成模型，支持 SSE 流式输出、工具调用、模型切换、超时重试、失败降级与结果追踪",
+          "设计 AI 生成任务基础设施，落地异步队列、Webhook、轮询、进度同步、积分扣减与失败退款，提升长耗时生成流程的稳定性",
+          "接入 Stripe Checkout 与订阅支付，完成支付回调、订单状态同步、订阅权益与积分发放、支付幂等和异常补偿，打通 AI 生成到商业化交付闭环"
         ]
       },
       {
         "name": "千域 Thousand Realms 智能建站系统",
         "role": "全栈工程师 · 2025.10 — 至今",
-        "desc": "基于 Next.js 与 PayloadCMS 构建的企业级 Monorepo 多站点内容管理平台，通过 AI 引擎自动筛选、改写和分发内容，日均处理 500+ 篇。",
+        "desc": "基于 Next.js 与 PayloadCMS 构建的企业级 Monorepo 多站点智能建站与内容管理平台，支持在统一后台管理多个独立站点，并为每个站点配置域名、主题、导航、页面和内容策略。平台以 AI 智能内容分发引擎为核心，可按预设规则筛选内容、调用 AI 改写、自动生成内链并分发至目标站点，日均处理 500+ 篇内容。",
         "tech": "Next.js / React / TypeScript / PayloadCMS / Tailwind CSS / shadcn/ui / Turborepo / pnpm workspace / PostgreSQL / Redis / Playwright",
         "bullets": [
-          "主导技术架构设计与 Monorepo 基础设施搭建，建设 60+ 可复用 UI 组件，代码复用率达 60%",
-          "开发 AI 智能内容分发引擎，支持规则筛选、AI 改写、内链生成与多站点分发",
-          "优化前端性能，接口响应速度降低 70%，首屏加载时间控制在 2 秒内"
+          "主导 Next.js + PayloadCMS 技术架构和 Turborepo / pnpm workspace Monorepo 基础设施搭建，拆分站点、后台、内容服务与共享包，支持多团队协作和独立站点持续交付",
+          "设计多站点内容模型与统一管理后台，实现站点域名、主题、导航、页面结构、栏目配置和发布策略的独立管理",
+          "负责 AI 智能内容分发引擎核心模块，基于规则编排内容筛选、去重、分类、优先级判断和目标站点匹配流程",
+          "接入 AI 改写与内容增强能力，自动生成标题、摘要、正文和站内链接，并结合内容审核、任务队列和失败重试完成批量分发，日均处理 500+ 篇",
+          "建设 60+ 可复用 UI 组件和统一设计系统，代码复用率达到 60%；通过缓存、请求合并和数据查询优化将接口响应时间降低 70%，首屏加载控制在 2 秒内",
+          "完善 PostgreSQL / Redis 数据层、Playwright 自动化测试和团队代码规范，提升多站点发布流程的稳定性与可维护性"
         ]
       },
       {
@@ -204,11 +213,16 @@
       {
         "name": "AI Coding 工作流实践",
         "tag": "个人技术实践",
-        "desc": "持续使用 Claude Code、OpenAI Codex、GitHub Copilot 将 AI 融入需求拆解、代码生成、调试、评审与文档流程，沉淀子 Agent 协作、Skills 复用、上下文管理和 Token 成本优化方法。",
+        "desc": "持续将大模型能力落地到 AI SaaS、内容生产和企业协作场景，覆盖模型接入、Agent 编排、工具调用、异步任务和流式交互，并使用 Claude Code、OpenAI Codex、GitHub Copilot 提升研发效率。",
         "tech": "Claude Code / OpenAI Codex / GPT / Agents / Skills / MCP",
         "bullets": [
-          "将复杂需求拆分为可验证任务，结合多 Agent 协作提升交付效率",
-          "实践 Tool Calling、SSE 流式交互和上下文压缩，构建可复用的 AI 工程工作流"
+          "接入 GPT、Claude、DeepSeek 等模型，抽象统一的多模型适配层，支持模型切换、超时重试和服务降级",
+          "设计多轮 Agent 工作流，完成任务拆解、状态持久化、流程编排和人工确认节点",
+          "基于 Tool Calling 封装搜索、数据库、文件、图片和视频等业务工具，控制参数校验与执行权限",
+          "搭建 Skill / Workflow 体系，将内容分析、创意规划、分镜设计和素材生成拆分为可复用能力",
+          "实现 SSE 流式输出、异步任务、Webhook、轮询和失败重试，提升 AI 生成链路的稳定性",
+          "完善上下文管理、会话记忆、消息持久化和 Token 预算策略，降低长流程调用成本",
+          "将复杂需求拆分为可验证任务，结合子 Agent 协作完成开发、调试、代码审查和文档沉淀"
         ]
       }
     ],
@@ -220,6 +234,12 @@
       "长期使用 Claude Code、OpenAI Codex、GPT 与 GitHub Copilot，重视任务拆解、工程质量和 Token 成本优化"
     ],
     "education": [
+      [
+        "仲恺农业工程学院",
+        "本科·非全日制",
+        "计算机科学与技术",
+        "2026 — 2028"
+      ],
       [
         "广东理工学院",
         "大专",
@@ -235,7 +255,7 @@
     "name": "Jiwang Li",
     "nameLatin": "LI JIWANG",
     "title": "Full-stack Engineer / AI Application Engineer",
-    "summary": "Full-stack engineer with 6 years of experience delivering products from requirements and architecture through frontend, backend, deployment and operations. Experienced with Vue, React, Next.js, TypeScript, Node.js / NestJS and Python. Built enterprise systems, content platforms, data visualization products and AI SaaS. Hands-on with GPT, Claude and DeepSeek integrations, Tool Calling, multi-turn agents, Skills / Workflows, SSE streaming and context management. Regularly use Claude Code and OpenAI Codex to improve engineering throughput.",
+    "summary": "Full-stack engineer with 6 years of experience delivering products from requirements and architecture through frontend, backend, deployment and operations. Experienced with Vue, React, Next.js, TypeScript, Node.js / NestJS and Python. Built enterprise systems, content platforms, data visualization products and AI SaaS. Hands-on with GPT, Claude and DeepSeek integrations, Tool Calling, multi-turn agents, Skills / Workflows, SSE streaming and context management. Experienced with Vercel, Docker, Nginx and GitHub Actions for deployment and CI/CD, including automated build, test, release and rollback workflows. Regularly use Claude Code and OpenAI Codex to improve engineering throughput.",
     "contact": [
       [
         "Email",
@@ -246,6 +266,11 @@
         "Phone",
         "15917529255",
         "tel:15917529255"
+      ],
+      [
+        "GitHub",
+        "LiveAckerman",
+        "https://github.com/LiveAckerman"
       ],
       [
         "6 years",
@@ -264,12 +289,12 @@
       ],
       [
         "Salary",
-        "12-17K",
+        "15-17K",
         ""
       ]
     ],
     "sections": {
-      "summary": "Profile",
+      "summary": "Resume",
       "skills": "Professional Skills",
       "experience": "Experience",
       "projects": "Projects",
@@ -343,24 +368,28 @@
       {
         "name": "Songin AI Music",
         "role": "Full-stack Engineer / Project Lead · 2026.02 — Present",
-        "desc": "AI SaaS platform for creators with music, lyrics, image, video and MV generation, project management, task tracking, asset management and multilingual operations.",
+        "desc": "AI-native SaaS platform for music creators, built around an end-to-end AI music and MV workflow from ideation, lyrics and music generation to storyboards, visual generation, video rendering and final compositing, with project management, asset management, credit billing and Stripe subscriptions.",
         "tech": "Next.js / React / TypeScript / Tailwind CSS / Node.js / PostgreSQL / Drizzle ORM / Better Auth / Stripe / S3 / Vercel AI SDK",
         "bullets": [
-          "Designed an LLM Tool Calling MV Agent workflow from input analysis and creative direction to storyboard, reference images, rendering and compositing",
-          "Built configurable Agent Skills for analysis, creative planning, storyboards, keyframes and scene rendering",
-          "Created model adapters with streaming, tool calls, persistence, switching, retries and fallbacks",
-          "Implemented async jobs, Webhooks, polling, credits, refunds, payment idempotency, permissions and object storage"
+          "Owned the core AI creation flow and designed an LLM Tool Calling MV Agent covering intent understanding, creative planning, lyric generation, music generation, storyboards, reference images, video rendering and final compositing",
+          "Built a configurable Agent / Skill / Workflow system that decomposes complex creative tasks into reusable capabilities with context passing, orchestration, persisted state and human approval steps",
+          "Created a unified multi-model adapter for text, music, image and video generation with SSE streaming, tool calls, model switching, retries, fallbacks and result tracking",
+          "Built the async generation infrastructure with queues, Webhooks, polling, progress sync, credit deduction and failure refunds for reliable long-running AI jobs",
+          "Integrated Stripe Checkout and subscriptions with payment Webhooks, order synchronization, entitlement and credit fulfillment, idempotency and recovery flows"
         ]
       },
       {
         "name": "Thousand Realms Intelligent Website Builder",
         "role": "Full-stack Engineer · 2025.10 — Present",
-        "desc": "Enterprise multi-site CMS built with Next.js and PayloadCMS. An AI distribution engine filters, rewrites and distributes content to independent sites; the platform processes 500+ articles per day.",
+        "desc": "Enterprise Monorepo platform for intelligent website building and multi-site content management, built with Next.js and PayloadCMS. A unified admin manages independent sites with configurable domains, themes, navigation, page structures and content policies. Its AI content distribution engine applies rules, rewrites content, generates internal links and publishes to target sites, processing 500+ articles per day.",
         "tech": "Next.js / React / TypeScript / PayloadCMS / Tailwind CSS / shadcn/ui / Turborepo / pnpm workspace / PostgreSQL / Redis / Playwright",
         "bullets": [
-          "Led architecture and Monorepo infrastructure; built 60+ reusable UI components with 60% code reuse",
-          "Developed AI content distribution with rule filtering, rewriting, internal links and multi-site publishing",
-          "Reduced API response time by 70% and kept first paint under 2 seconds"
+          "Led the Next.js + PayloadCMS architecture and Turborepo / pnpm workspace Monorepo, separating site apps, admin, content services and shared packages for scalable delivery",
+          "Designed the multi-site content model and unified admin for independent domains, themes, navigation, page structures, content policies and publishing strategies",
+          "Built the core AI content distribution engine with rule orchestration for filtering, deduplication, categorization, prioritization and target-site matching",
+          "Integrated AI rewriting and content enrichment to generate titles, summaries, body copy and internal links; combined moderation, job queues and retries to process 500+ articles per day",
+          "Created a shared design system with 60+ reusable UI components and 60% code reuse; reduced API response time by 70% through caching, request batching and query optimization",
+          "Established PostgreSQL / Redis data patterns, Playwright automation and team coding standards to improve multi-site publishing reliability and maintainability"
         ]
       },
       {
@@ -433,11 +462,16 @@
       {
         "name": "AI Coding Workflow Practice",
         "tag": "Independent technical practice",
-        "desc": "Continuously integrate Claude Code, OpenAI Codex and GitHub Copilot into planning, implementation, debugging, review and documentation. Developed repeatable practices for sub-agent collaboration, Skills reuse, context management and token efficiency.",
+        "desc": "Apply large language models to AI SaaS, content production and enterprise collaboration, covering model integration, Agent orchestration, tool use, async jobs and streaming interactions. Use Claude Code, OpenAI Codex and GitHub Copilot throughout delivery.",
         "tech": "Claude Code / OpenAI Codex / GPT / Agents / Skills / MCP",
         "bullets": [
-          "Break complex requirements into verifiable tasks and coordinate agents for faster delivery",
-          "Apply Tool Calling, SSE streaming and context compression to build reusable AI workflows"
+          "Integrate GPT, Claude and DeepSeek through a unified model adapter with switching, retries and fallbacks",
+          "Design multi-turn Agent workflows with task decomposition, persisted state, orchestration and approval steps",
+          "Build Tool Calling integrations for search, databases, files, images and video with validation and permissions",
+          "Create reusable Skills / Workflows for content analysis, creative planning, storyboards and asset generation",
+          "Implement SSE streaming, async jobs, Webhooks, polling and retries for reliable generation pipelines",
+          "Manage context, conversation memory, message persistence and token budgets to control long-running costs",
+          "Break complex requirements into verifiable tasks and coordinate sub-agents for implementation, debugging and review"
         ]
       }
     ],
@@ -449,6 +483,12 @@
       "Use Claude Code, OpenAI Codex, GPT and GitHub Copilot with a focus on task decomposition, engineering quality and token efficiency"
     ],
     "education": [
+      [
+        "Zhongkai University of Agriculture and Engineering",
+        "Bachelor's Degree · Part-time",
+        "Computer Science and Technology",
+        "2026 — 2028"
+      ],
       [
         "Guangdong Polytechnic College",
         "Associate Degree",
